@@ -8,13 +8,13 @@ import 'package:flutter/foundation.dart' show kIsWeb;
 import 'home_page.dart';
 
 // ✅ DOMÍNIO PERMITIDO
-const String allowedDomain = "espartmoveis.com";
+const String allowedDomain = "domain.com";
 
 // ✅ (opcional) emails específicos permitidos
 const List<String> allowedEmails = [
-  "espartmoveis@espartmoveis.com",
-  "projetos@espartmoveis.com",
-  "juliateosousa@espartmoveis.com",
+  "person@domain.com",
+  "person@domain.com",
+  "person@domain.com",
 ];
 
 // 🔐 Regra: ou está na lista OU termina com @domínio
@@ -42,7 +42,7 @@ class _LoginPageState extends State<LoginPage> {
   // ✅ Use o Desktop Client ID no macOS
   // Pegue em: Google Cloud Console → Credentials → OAuth client → Desktop app
   static const String macosDesktopClientId =
-      "1065549726082-p7ueiqnjig7jpf27l6blffkltibip6bf.apps.googleusercontent.com";
+      "macosDesktopClientId";
 
   Future<void> signInWithGoogle() async {
     setState(() {
@@ -145,7 +145,7 @@ class _LoginPageState extends State<LoginPage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 const Text(
-                  'Espart Moveis',
+                  'Business Name',
                   style: TextStyle(
                     fontSize: 32,
                     fontWeight: FontWeight.bold,
