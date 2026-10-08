@@ -1,4 +1,4 @@
-# Relatório de revisão para publicação no GitHub
+# Orçamentos App
 
 Data: 08/10/2026. Escopo: lib.zip enviado nesta conversa; os Dart avulsos não substituíram os arquivos do ZIP.
 
